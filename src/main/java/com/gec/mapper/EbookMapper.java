@@ -1,7 +1,7 @@
-package com.gec.wiki.mapper;
+package com.gec.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.gec.wiki.javabean.Ebook;
+import com.gec.javabean.Ebook;
 
 /**
  * @author dbc

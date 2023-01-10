@@ -1,7 +1,7 @@
-package com.gec.wiki.service;
+package com.gec.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.gec.wiki.javabean.Ebook;
+import com.gec.javabean.Ebook;
 
 /**
  * @author dbc

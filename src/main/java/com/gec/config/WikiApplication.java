@@ -1,4 +1,4 @@
-package com.gec.wiki.config;
+package com.gec.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 //如果不加这个注解就只会扫描该包所在位置及其子包，因为换了位置 扫描多个包@ComponentScan("com.gec","com.test")
-@ComponentScan("com.gec.wiki")
+@ComponentScan("com.gec")
 @SpringBootApplication
-@MapperScan("com.gec.wiki.mapper")
+@MapperScan("com.gec.mapper")
 public class WikiApplication
 {
     private static final Logger LOG = LoggerFactory.getLogger(WikiApplication.class);

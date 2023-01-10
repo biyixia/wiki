@@ -18,3 +18,8 @@ GET http://localhost:8080/getEbooks
 Accept: application/json
 
 ###
+
+GET http://localhost:8080/getEbookByName?name=教程
+Accept: application/json
+
+###

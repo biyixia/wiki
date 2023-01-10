@@ -1,4 +1,4 @@
-package com.gec.wiki.javabean;
+package com.gec.javabean;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import lombok.Data;
  */
 @Data
 public class Ebook {
-    private int id;
+    private Integer id;
     private String name;         //名称
     private long  category1_id;  //分类1
     private long category2_id;  //分类2

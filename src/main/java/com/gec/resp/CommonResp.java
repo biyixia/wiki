@@ -1,4 +1,4 @@
-package com.gec.wiki.resp;
+package com.gec.resp;
 
 public class CommonResp<T> {
 

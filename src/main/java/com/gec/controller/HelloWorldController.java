@@ -1,4 +1,4 @@
-package com.gec.wiki.controller;
+package com.gec.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

@@ -1,9 +1,9 @@
-package com.gec.wiki.service.impl;
+package com.gec.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.gec.wiki.javabean.Ebook;
-import com.gec.wiki.mapper.EbookMapper;
-import com.gec.wiki.service.EbookService;
+import com.gec.javabean.Ebook;
+import com.gec.mapper.EbookMapper;
+import com.gec.service.EbookService;
 import org.springframework.stereotype.Service;
 
 /**
